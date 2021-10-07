@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid;
+  padding: 15px;
+}
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+.container ul li {
+  border-radius: 5px;
+  width: fit-content;
+  margin-top: 2px;
+  background-color: rgba(250, 235, 215, 0.103);
+}
+.box {
+  display: flex;
+  align-items: baseline;
+}
+.box h4 {
+  flex: 40% 0;
+}
+.box ul {
+  flex: 60 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 300px;
+}
+.container small {
+  width: 13em;
+  word-wrap: break-word;
+}
